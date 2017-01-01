@@ -1,6 +1,8 @@
 var React = require('react');
 var {Link, IndexLink} = require('react-router');
 
+
+
 var Nav = React.createClass({
 
   render: function () {
@@ -13,7 +15,7 @@ var Nav = React.createClass({
               <IndexLink to='/' activeClassName="active" activeStyle={{fontWeight:'bold'}}> Timer </IndexLink>
             </li>
             <li>
-              <Link to='/CountDown' activeClassName="active" activeStyle={{fontWeight:'bold'}}> CountDown </Link>
+              <Link to='/Countdown' activeClassName="active" activeStyle={{fontWeight:'bold'}}> CountDown </Link>
             </li>
 
           </ul>
